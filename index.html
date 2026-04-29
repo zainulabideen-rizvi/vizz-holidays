@@ -108,16 +108,12 @@
 
         <div class="stats hero-anim d4">
           <div class="stat">
-            <div class="stat-num" data-count="12">0</div>
+            <div class="stat-num" data-count="10">0</div>
             <div class="stat-label">Holiday Days</div>
           </div>
           <div class="stat">
             <div class="stat-num" data-count="6">0</div>
             <div class="stat-label">Public Holidays</div>
-          </div>
-          <div class="stat">
-            <div class="stat-num" data-count="2">0</div>
-            <div class="stat-label">Election Days</div>
           </div>
           <div class="stat">
             <div class="stat-num">24/7</div>
@@ -204,8 +200,8 @@
       </div>
     </section>
 
-    <!-- ============ Policy + Balance ============ -->
-    <section id="policy" class="bg-soft">
+    <!-- ============ Key Policies ============ -->
+    <section id="policy">
       <div class="container">
         <div class="section-head reveal">
           <div>
@@ -218,87 +214,87 @@
           </div>
         </div>
 
-        <div class="policy-grid">
-          <div class="policy-card reveal">
-            <h3>Key Policies</h3>
-            <ul class="policy-list">
-              <li>
-                <span class="ico"
-                  ><svg
-                    viewBox="0 0 24 24"
-                    fill="none"
-                    stroke="currentColor"
-                    stroke-width="2"
-                    stroke-linecap="round"
-                    stroke-linejoin="round"
-                  >
-                    <circle cx="12" cy="12" r="10" />
-                    <polyline points="12 6 12 12 16 14" /></svg
-                ></span>
-                <div>
-                  <strong>Floating optional leave</strong
-                  ><span
-                    >Up to 15 optional days per year, requestable with 7-day
-                    notice.</span
-                  >
-                </div>
-              </li>
-              <li>
-                <span class="ico"
-                  ><svg
-                    viewBox="0 0 24 24"
-                    fill="none"
-                    stroke="currentColor"
-                    stroke-width="2"
-                    stroke-linecap="round"
-                    stroke-linejoin="round"
-                  >
-                    <path
-                      d="M12 2v4M12 18v4M4.93 4.93l2.83 2.83M16.24 16.24l2.83 2.83M2 12h4M18 12h4M4.93 19.07l2.83-2.83M16.24 7.76l2.83-2.83"
-                    /></svg
-                ></span>
-                <div>
-                  <strong>On-call compensation</strong
-                  ><span
-                    >Holiday on-call earns 1.5× comp time, redeemable within 90
-                    days.</span
-                  >
-                </div>
-              </li>
-            </ul>
+        <div class="policy-feature reveal delay-1">
+          <div class="policy-feature-icon">
+            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round">
+              <path d="M12 2v4M12 18v4M4.93 4.93l2.83 2.83M16.24 16.24l2.83 2.83M2 12h4M18 12h4M4.93 19.07l2.83-2.83M16.24 7.76l2.83-2.83"/>
+            </svg>
           </div>
-
-          <div class="balance-card reveal delay-1">
-            <h3>Annual Leave Allowance</h3>
-            <p class="sub">
-              Standard allocation per full-time employee · resets January 1
+          <div class="policy-feature-body">
+            <div class="policy-feature-badge">On-Call Benefit</div>
+            <h3 class="policy-feature-title">On-call Compensation</h3>
+            <p class="policy-feature-desc">
+              Team members who handle incidents during public holidays earn <strong>1.5× compensatory time off</strong>, redeemable within 90 days of the holiday. This applies to all Severity-1 and Severity-2 on-call rotations across every department.
             </p>
-            <div class="balance-rows">
-              <div class="balance-row">
-                <div class="top">
-                  <span>Public Holidays (Pakistan)</span><span>10 days</span>
-                </div>
-                <div class="bar"><i data-fill="100"></i></div>
+            <div class="policy-feature-stats">
+              <div class="pf-stat">
+                <span class="pf-stat-num">1.5×</span>
+                <span class="pf-stat-label">Comp Time Earned</span>
               </div>
-              <div class="balance-row">
-                <div class="top">
-                  <span>Election Days (Every 5 Years)</span><span>2 days</span>
-                </div>
-                <div class="bar"><i data-fill="20"></i></div>
+              <div class="pf-stat">
+                <span class="pf-stat-num">90</span>
+                <span class="pf-stat-label">Days to Redeem</span>
               </div>
-              <div class="balance-row">
-                <div class="top">
-                  <span>Optional Leave</span><span>15 days</span>
-                </div>
-                <div class="bar"><i data-fill="40"></i></div>
-              </div>
-              <div class="balance-row">
-                <div class="top">
-                  <span>Paid Time Off (PTO)</span><span>22 days</span>
-                </div>
-                <div class="bar"><i data-fill="100"></i></div>
+              <div class="pf-stat">
+                <span class="pf-stat-num">24/7</span>
+                <span class="pf-stat-label">SLA Coverage</span>
               </div>
             </div>
+          </div>
+          <div class="policy-feature-glow"></div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ============ Annual Leave Allowance ============ -->
+    <section id="leave-allowance" class="bg-soft">
+      <div class="container">
+        <div class="section-head reveal">
+          <div>
+            <span class="section-tag">Allowances</span>
+            <h2>Annual Leave Allowance</h2>
+            <p>
+              Standard leave allocation per full-time employee. All balances reset on January 1 each year.
+            </p>
+          </div>
+        </div>
+
+        <div class="allowance-grid reveal delay-1">
+          <div class="allowance-card ac-blue">
+            <div class="ac-icon">
+              <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><rect x="3" y="4" width="18" height="18" rx="2"/><line x1="16" y1="2" x2="16" y2="6"/><line x1="8" y1="2" x2="8" y2="6"/><line x1="3" y1="10" x2="21" y2="10"/></svg>
+            </div>
+            <div class="ac-days">10</div>
+            <div class="ac-label">Public Holidays</div>
+            <div class="ac-sub">Pakistan official calendar</div>
+            <div class="ac-bar"><div class="ac-fill" style="width:100%"></div></div>
+          </div>
+          <div class="allowance-card ac-green">
+            <div class="ac-icon">
+              <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M22 12h-4l-3 9L9 3l-3 9H2"/></svg>
+            </div>
+            <div class="ac-days">5</div>
+            <div class="ac-label">Medical Leaves</div>
+            <div class="ac-sub">Doctor-verified sick days</div>
+            <div class="ac-bar"><div class="ac-fill" style="width:50%"></div></div>
+          </div>
+          <div class="allowance-card ac-amber">
+            <div class="ac-icon">
+              <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M10.29 3.86L1.82 18a2 2 0 0 0 1.71 3h16.94a2 2 0 0 0 1.71-3L13.71 3.86a2 2 0 0 0-3.42 0z"/><line x1="12" y1="9" x2="12" y2="13"/><line x1="12" y1="17" x2="12.01" y2="17"/></svg>
+            </div>
+            <div class="ac-days">5</div>
+            <div class="ac-label">Emergency Leaves</div>
+            <div class="ac-sub">Unforeseen personal situations</div>
+            <div class="ac-bar"><div class="ac-fill" style="width:50%"></div></div>
+          </div>
+          <div class="allowance-card ac-purple">
+            <div class="ac-icon">
+              <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><circle cx="12" cy="12" r="10"/><polyline points="12 6 12 12 16 14"/></svg>
+            </div>
+            <div class="ac-days">5</div>
+            <div class="ac-label">Optional Leaves</div>
+            <div class="ac-sub">7-day notice required</div>
+            <div class="ac-bar"><div class="ac-fill" style="width:50%"></div></div>
           </div>
         </div>
       </div>
@@ -654,20 +650,6 @@
             date: "2026-09-04",
             type: "public",
             desc: "Commemoration of the birth of Prophet Muhammad (PBUH) — offices closed.",
-          },
-          {
-            name: "General Elections (Day 1)",
-            date: "2026-12-01",
-            type: "optional",
-            desc: "Election Day — comes every 5 years; on-call coverage maintained.",
-            onAnnounced: true,
-          },
-          {
-            name: "General Elections (Day 2)",
-            date: "2026-12-02",
-            type: "optional",
-            desc: "Following Day (if applicable) — on-call coverage maintained.",
-            onAnnounced: true,
           },
         ],
       };
